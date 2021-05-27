@@ -1,1 +1,40 @@
+runko {
+  taustaväri : harmaa;
+  väri : harmaa;
+  kirjasinkoko :  24 px ;
+  asento : kiinteä;
+  marginaali vasemmalla :  -100 px ;
+  yläreuna :  -100 px ;
+  yläosa :  15 % ;
+  jäljellä :  50 % ;
+}
+
+# todo {
+ näyttö : inline-block;
+ taustaväri : musta;
+}
+
+# uusi-tehtava {
+ reunan säde :  5 % ;
+ taustaväri : valkoinen;
+}
+
+# tehtavat {
+ näyttö : inline-block;
+ taustaväri : punainen;
+}
+
+# tehdytTehtavat {
+ näyttö : inline-block;
+ taustaväri : vihreä;
+}
+
+# adbut {
+ kirjasinkoko :  12 px ;
+ näyttö : inline-block;
+ täyte :  3 px  8 px ;
+ reunan säde :  10 % ;
+ taustaväri : vihreä;
+ väri : valkoinen;
+ kohdistin : osoitin;
 }
