@@ -1,24 +1,23 @@
-body {
-  margin: 0px;
-  padding: 30px;
-  overflow: hidden;
-  background: #313131;
-}
-
-canvas {
+#piirra {
+  border: 1px solid black;
   box-shadow: -3px 2px 9px 6px white;
   cursor: pointer;
 }
 
-.tools {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-top 15px;
+body {
+  background-color: #313131;
+  overflow: hidden;
+  margin: 0px;
+  padding: 1px;
 }
 
+.tyokalut {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
 
-.tools .color-field {
+.tyokalut .color-field {
   height: 40px;
   width: 40px;
   min-width: 40px;
@@ -29,30 +28,25 @@ canvas {
   border-radius: 50%;
   border: 2px solid white;
   align-self: center;
-  margin: 0 8px;
 }
 
-
-.tools .button {
+.button {
   align-self: center;
   width: 100px;
   height: 40px;
-  border 2px solid white;
-  cursor: pointer;
+  border: 2px solid white;
   color: white;
   background: #222;
   font-weight: bold;
-  margin: 0 8px;
+  cursor: pointer;
 }
 
-
-.color-picker {
-  align-self: center;
-  margin 0 8px;
-  height: 50px;
-}
-
-.pen-range {
-  align-self: center;
-  margin: 0 8px;
+section {
+  border: 4px solid grey;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  float: left;
+  height: 360px;
+  padding: 20px;
+  margin: 10px;
 }
