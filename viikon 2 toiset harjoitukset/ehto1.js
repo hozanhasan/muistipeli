@@ -1,7 +1,10 @@
 function positiivinenNegatiivinen()
 {
+  /* Esitellään muuttuja arvo*/
   var arvo = 0;
+
   var tulosta = "";
+
   arvo=parseInt(document.getElementById("luku").value);
   tulosta="Antamasi luku: " + arvo;
   if (arvo>=0)
@@ -18,6 +21,7 @@ function positiivinenNegatiivinen()
 
   function myfunction()
   {
+      /* Esitellään tulosta keskiarvo */
     var arvo =0;
     var tulosta ="";
     arvo=parseInt(document.getElementById("luku2").value);
@@ -47,6 +51,7 @@ function positiivinenNegatiivinen()
   }
 
 function check_leapyear() {
+    /* Esitellään tulosta karkausvuosi */b
   var arvo =0;
   var tulosta ="";
     arvo=parseInt(document.getElementById("year").value);
@@ -65,6 +70,7 @@ function check_leapyear() {
 
  function summakeskiarvo()
  {
+     /* Esitellään muuttuja summa keskiarvon*/
  var n1,n2,n3,n4,n5;
  var summa,keskiarvo;
  var tulos;
@@ -84,11 +90,12 @@ function check_leapyear() {
    }
 
    function kertolasku() {
+    /* Esitellään muuttujat luku ja lause*/
      var luku;
      var lause;
 
     luku=parseInt(document.getElementById("luku1").value);
-
+    /* Lasketaan saatu luku kertaa 1-10 ja sijoitetaan tulos muuttujaan lause */
     lause=luku+"x1="+luku*1+"<br>";
     lause+=luku+"x2="+luku*2+"<br>";
     lause+=luku+"x3="+luku*3+"<br>";
